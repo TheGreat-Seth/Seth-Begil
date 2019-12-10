@@ -1,0 +1,88 @@
+/*body background*/ 
+body {
+ background: 
+ linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
+ linear-gradient(225deg, black 25%, transparent 25%) -50px 0,
+ linear-gradient(315deg, black 25%, transparent 25%),
+ linear-gradient(45deg, black 25%, transparent 25%);	
+ background-size: 2em 2em;
+ background-color: #232323;
+}
+
+/*navigation bar styles*/ 
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: yellow;
+    color: yellow;
+  }
+
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+/*searchbar style*/ 
+  .topnav input[type=text] {
+    float: right;
+    padding: 12px;
+    border: none;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+  }
+
+/*header styles*/ 
+  h1 {
+   font-family: verdana;
+   font-size: 30px;
+   color: white;
+   text-align: center;
+  }
+
+  p {
+   font-family: verdana;
+   font-size: 20px;
+   color: white;
+   text-align: center;
+  }
+
+ 
+/*link here*/
+.column {
+    background-color: #333;
+    overflow: hidden;
+    font-family: Lucida Sans Unicode;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+  }
+.column input[type=submit] {
+    float: center;
+    padding: 5px;
+    border: none;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+  }
+.column linkhere[type=text] {
+    float: center;
+    padding: 20px;
+    border: none;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+  }
+  
